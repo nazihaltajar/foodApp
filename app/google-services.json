@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1078555824156",
+    "firebase_url": "https://food-ca9e3.firebaseio.com",
+    "project_id": "food-ca9e3",
+    "storage_bucket": "food-ca9e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078555824156:android:896c4f3303acbe22",
+        "android_client_info": {
+          "package_name": "com.example.nazih.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078555824156-99vahb2sms46ivpoimbrsc5p6dalnpp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nazih.food",
+            "certificate_hash": "b13610d37d12f251ae2b9c0ca85e05e62bb9ca09"
+          }
+        },
+        {
+          "client_id": "1078555824156-l00741k3l7li2pphc3ko4g4vk0oqlur7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAurlH1KFutt_nLc_blcEvaRRmijxMEusY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078555824156-l00741k3l7li2pphc3ko4g4vk0oqlur7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

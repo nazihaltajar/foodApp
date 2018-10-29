@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.nazih.food.MainActivity"
+    android:background="@drawable/bg3">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Fsega-Restaurant"
+            android:textColor="#138D75"
+            android:textSize="50sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:layout_gravity="center" />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignUp"
+            android:text="@string/sign_up"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/btnSignUp"/>
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignIn"
+            android:text="@string/sing_in"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/btnSignActive"/>
+
+
+    </LinearLayout>
+    
+    
+</RelativeLayout>
